@@ -15,4 +15,4 @@ class PostsIndex extends Component {
 	}
 }
 
-export default connect(null, { fetchPosts: fetchPosts })(PostsIndex);
+export default connect(null, { fetchPosts })(PostsIndex);
